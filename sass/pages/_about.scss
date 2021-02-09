@@ -1,0 +1,56 @@
+.about-hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50vh;
+    background: #f3f0ea;
+
+    @include media('<=bigmobile') {
+        background-size: 100% auto;
+        height: auto;
+    }
+
+    .about-hero__left {
+        background-image: url(../../img/IMG_7405.JPG);
+        background-size: cover;
+    }
+
+    .about-hero__right{
+        z-index: 2;
+        line-height:1.4;
+        padding: 3%;
+        font-size: 1.5em;
+
+        p {
+            padding: 9%;
+        }
+
+        @include media('<=bigmobile') {
+            width:80%;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.about-center {
+
+    padding: 6% 12%;
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+
+.about-bottom {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+    background-color: #F3F0EA;
+
+    .about-bottom__left {
+        padding: 9% 12%;
+        font-size: 1.4em;
+        line-height: 1.4;
+    }
+    .about-bottom__right {
+        background-image: url(../../img/5.JPG);
+        background-size: cover;
+    }
+}
