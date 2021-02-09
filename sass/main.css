@@ -248,7 +248,7 @@ form {
 .home-bottom__left {
   background-image: url(../img/1.JPG);
   background-size: cover;
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: bottom-left;
 }
@@ -267,7 +267,7 @@ form {
 }
 
 .home-bottom__right {
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: bottom-right;
 }
@@ -763,5 +763,35 @@ h2 {
 
 .appeal .appeal-right table tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.05);
+}
+
+.appeal .appeal-bottom {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+      grid-template-areas: " bottom-content bottom-content"  "bottom-left bottom-right";
+}
+
+.appeal .appeal-bottom .content {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bottom-content;
+  padding: 5%;
+}
+
+.appeal .appeal-bottom .appeal-bottom__left {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: bottom-left;
+}
+
+.appeal .appeal-bottom .appeal-bottom__right {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: bottom-right;
 }
 /*# sourceMappingURL=main.css.map */

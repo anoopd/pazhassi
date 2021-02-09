@@ -48,4 +48,26 @@
 
         }
     }
+
+    .appeal-bottom {
+        
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-areas: " bottom-content bottom-content" 
+                             "bottom-left bottom-right";
+
+        .content {
+            grid-area: bottom-content;
+            padding: 5%;
+        }
+
+        .appeal-bottom__left {
+            grid-area: bottom-left;
+        }
+
+        .appeal-bottom__right {
+            grid-area: bottom-right;
+        }
+    }
 }
