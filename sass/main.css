@@ -884,6 +884,7 @@ h2 {
 @media (max-width: 790px) {
   .appeal .appeal-right {
     height: 100%;
+    background: url("../../img/small/6.JPG");
   }
 }
 
@@ -1050,6 +1051,8 @@ h2 {
 @media (max-width: 790px) {
   .vidyanikethan-top .vidyanikethan-top__right {
     padding: 20% 0;
+    background: url(../../img/small/7.JPG);
+    background-size: cover;
   }
 }
 
@@ -1096,6 +1099,14 @@ h2 {
   grid-area: vidyanikethan-bottom-left;
   background: url(../../img/7.JPG);
   background-size: cover;
+}
+
+@media (max-width: 790px) {
+  .vidyanikethan-bottom .vidyanikethan-bottom__left {
+    padding: 28% 0;
+    background: url("../../img/small/7.JPG");
+    background-size: cover;
+  }
 }
 
 .vidyanikethan-bottom .vidyanikethan-bottom__right {

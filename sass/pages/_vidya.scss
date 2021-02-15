@@ -37,6 +37,8 @@
 
         @include media('<=bigmobile') {
             padding: 20% 0;
+            background: url(../../img/small/7.JPG);
+            background-size:cover;
         }
 
  h1 {
@@ -78,6 +80,13 @@
         grid-area: vidyanikethan-bottom-left;
         background: url(../../img/7.JPG);
         background-size: cover;
+
+        @include media('<=bigmobile') {
+            padding: 28% 0;
+            background: url('../../img/small/7.JPG');
+            background-size: cover;
+        }
+        
     }
     .vidyanikethan-bottom__right {
         grid-area: vidyanikethan-bottom-right;
