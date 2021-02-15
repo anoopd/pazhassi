@@ -10,15 +10,13 @@ input[type=email], input[type=text], input[type=url], textarea {
     color: #5c5f6e;
     border-radius: 2px;
     transition: all .25s ease-in-out;
-    background-size: 20px 20px;
-    background-position: calc(100% - 20px) 22px;
-    background-repeat: no-repeat;
-    margin-bottom: 1.3em;
+    margin-bottom: 7%;
 }
 
 form {
     background-color: #F3F0EA;
-    padding:2em;
+    padding:6%;
+    margin: 5%;
 }
 
 .form-control {
@@ -27,7 +25,9 @@ form {
 label {
     display: block;
     font-size: 1.3em;
-    margin-bottom: .3em;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: rgba($color: #000000, $alpha: .5)
 }
 
 button {

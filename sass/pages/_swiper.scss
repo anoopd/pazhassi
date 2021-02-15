@@ -1,0 +1,130 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; 
+    align-items: center;
+   
+}
+
+.slide-grid {
+    display: grid;
+    grid-template-areas: "slide-img slide-cont";
+    grid-template-columns: 60% 40%;
+    justify-items: center;;
+    align-items: center;
+
+    @include media('<=smalltab') {
+        grid-template-columns: 100%;
+        grid-template-areas: "slide-img"
+                              "slide-cont";
+    }
+    .first {
+        background-image: url(../../img//1.JPG);
+        background-position: 50% 50%; 
+        background-size: cover;
+    }
+    .second{
+        background-image: url(../../img//5.JPG);
+        background-size: cover;
+    }
+    .third{
+        background-image: url(../../img//7.JPG);
+        background-size: cover;
+    }
+.img {
+    grid-area: slide-img;
+    width: 100%;
+    height: 80vh;
+
+    @include media('<=smalltab') {
+        height: 40vh;
+    }
+
+    @include media('<=bigmobile') {
+        height: 30vh;
+    }
+    img {
+        width: 100%;
+    }
+}
+.content {
+    grid-area: slide-cont;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+h1 {
+            color: #F36621;
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+
+            @include media('<=bigmobile') {
+                font-size: 1.5em;
+            }
+        }
+        p {
+            font-weight: bold;
+            line-height: 1.3;
+            font-size: 1.2em;
+            color:rgba(0, 0, 0,0.6);
+
+            @include media('<=bigmobile') {
+                font-size: 1em;
+                font-weight: normal;
+            }
+        }
+}
+.cont-wrapper {
+    width: 80%;
+
+    @include media('<=smalltab') {
+        padding: 4% 0;
+    }
+}
+}
+
+div.swiper-button-prev,
+div.swiper-button-next {
+color: #F36621;
+}
+
+span.swiper-pagination-bullet {
+    background-color: #F36621;
+    }
+
+.read-more {
+    text-decoration: none;
+    background: #F36721;
+    margin: 6% auto;
+    display: block;
+    width: 50%;
+    font-weight: bold;
+    color: #FFF;
+    padding: 2% 4%;
+}
+
+
+
+
