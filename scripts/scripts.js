@@ -8,3 +8,11 @@ mobile_menu.addEventListener('click',(e) => {
     nav.classList.toggle('toggle');
 });
 
+/* Greensock Details goes here */
+
+var tl = gsap.timeline();
+
+tl.from('.logo',{opacity:0, ease: 'poser1.inOut'})
+  .from('.nav li',{opacity:0,x:20,stagger:0.1,ease:"power1.inOut"})
+  .from('.tel-no',{opacity: 0,ease:'poser1.inOut'})
+

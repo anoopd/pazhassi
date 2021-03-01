@@ -199,6 +199,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     if(hashData.pid && hashData.gid) {
         openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
     }
+
+    showHideOpacity:true
 };
 
 // execute above function

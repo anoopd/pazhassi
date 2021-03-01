@@ -37,6 +37,28 @@
         grid-template-areas: "slide-img"
                               "slide-cont";
     }
+
+    .img-overlay {
+        width:176px;
+        height:100%;
+        left: 51%;
+        position: absolute;
+        background-image: url('./../../img/bg.svg');
+
+        @include media('<=bigtab') {
+        
+            left: 45%;
+        }
+
+        @include media('<=smalltab') {
+          display: none; 
+        }
+
+        .pazhassi-divider {
+            width: 100%;
+            height: 100%;
+        }
+    }
     .first {
         background-image: url(../../img//1.JPG);
         background-position: 50% 50%; 
@@ -73,6 +95,8 @@
     display: grid;
     justify-items: center;
     align-items: center;
+
+    
 
 h1 {
             color: #F36621;
@@ -116,7 +140,7 @@ span.swiper-pagination-bullet {
 
 .read-more {
     text-decoration: none;
-    background: #F36721;
+    background: #F36621;
     margin: 6% auto;
     display: block;
     width: 50%;
