@@ -142,6 +142,15 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
    <script src="scripts/scripts.js"></script>
+   <script>
+
+       var tlappeal = gsap.timeline();
+
+       tlappeal.from('.appeal-left__wrapper h1',{opacity:0,ease:'poser1.inOut'})
+                .from('.appeal-left__wrapper p', { opacity:0, x: 20, ease:'poser1.inOut'})
+                .from('.appeal-right table', { opacity:0, ease:'power1.inOut'})
+
+       </script>
 <body>
     
 </body>

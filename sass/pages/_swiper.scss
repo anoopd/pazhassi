@@ -26,16 +26,11 @@
 }
 
 .slide-grid {
-    display: grid;
-    grid-template-areas: "slide-img slide-cont";
-    grid-template-columns: 60% 40%;
-    justify-items: center;;
-    align-items: center;
+
+    width: 100%;
+    height: 100%;
 
     @include media('<=smalltab') {
-        grid-template-columns: 100%;
-        grid-template-areas: "slide-img"
-                              "slide-cont";
     }
 
     .img-overlay {
@@ -89,12 +84,24 @@
     }
 }
 .content {
-    grid-area: slide-cont;
-    height: 100%;
-    background-color: #f0f0f0;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    z-index: 5;
+    width: 40%;
+    padding: 3%;
+    background-color: rgba(255,255,255,0.7);
     display: grid;
     justify-items: center;
     align-items: center;
+
+    @include media('<=bigtab') {
+
+        position: relative;
+        width: 100%;
+        padding: 0;
+        left:0;
+    }
 
     
 

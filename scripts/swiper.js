@@ -1,6 +1,16 @@
+const swiperAnimation = new SwiperAnimation();
 var swiper = new Swiper('.swiper-container', {
     spaceBetween: 30,
     centeredSlides: true,
+
+    on: {
+      init: function(){
+        swiperAnimation.init(this).animate();
+      },
+      slideChange: function() {
+        swiperAnimation.init(this).animate();
+      }
+    },
     
     pagination: {
       el: '.swiper-pagination',

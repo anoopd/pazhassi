@@ -74,7 +74,17 @@ Wayanad, situated far away from the plains, is poised for development in the fie
 
    </div><!-- Container End -->
 <div class="copyright">all rights reserved 2021</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
    <script src="scripts/scripts.js"></script>
+
+   <script>
+       var tlvidya = gsap.timeline();
+
+       tlvidya.from('.vidyanikethan-top__right h1', {opacity:0 , ease:'power1.inOut'})
+              .from('.vidyanikethan-top__left p', { opacity:0, x:20, ease:'power1.inOut'})
+              .from('.vidyanikethan-middle p', { opacity:0, ease:'power1.inOut'})
+              
+   </script>
     
 </body>
 </html>
