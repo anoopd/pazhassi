@@ -621,6 +621,11 @@ h2 {
   }
 }
 
+.about-center {
+  display: -ms-grid;
+  display: grid;
+}
+
 .about-center p {
   padding: 6% 12%;
   font-size: 1.4em;

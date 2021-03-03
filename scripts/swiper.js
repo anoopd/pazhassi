@@ -11,6 +11,8 @@ var swiper = new Swiper('.swiper-container', {
         swiperAnimation.init(this).animate();
       }
     },
+
+    preloadImages: true,
     
     pagination: {
       el: '.swiper-pagination',

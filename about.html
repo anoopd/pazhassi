@@ -64,5 +64,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
    <script src="scripts/scripts.js"></script>
+   <script>
+            /* Greensock Animation About Us Page */
+
+            var tlabout = gsap.timeline();
+
+  tlabout.from('.about-hero__left h1',{opacity:0,ease:"power1.inOut"})
+        .from('.about-hero__right p',{opacity:0,x:20,ease:"poser1.inOut"})
+        .from('.about-center p',{opacity:0, ease:"power1.inOut"})
+   </script>
 </body>
 </html>

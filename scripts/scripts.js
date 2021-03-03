@@ -17,13 +17,7 @@ tl.from('.logo',{opacity:0, ease: 'poser1.inOut'})
   .from('.tel-no',{opacity: 0,ease:'poser1.inOut'})
 
 
-  /* Greensock Animation About Us Page */
-  var tabout = gsap.timeline();
-
-  tabout.from('.about-hero__left h1',{opacity:0,ease:"power1.inOut"})
-        .from('.about-hero__right p',{opacity:0,x:20,ease:"poser1.inOut"})
-        .from('.about-center p',{opactiy:0, ease:'poser1.inOut'})
-        .from('.about-bottom__left p',{ opacity:0,x:-20, ease: 'poser1.inOut'})
+ 
 
 /* Contact Page Animations */
 var tcontact = gsap.timeline();
