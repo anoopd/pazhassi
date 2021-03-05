@@ -23,12 +23,12 @@
     align-items: center;
     justify-items: center;
     grid-area: contact-left;
-    background: url(../../img/2.JPG);
+    background: url(../../img1/medium/3.jpg);
     background-size: cover;
 
     @include media('<=bigmobile') {
         height: 100%;
-        background:url('../../img/small/2.JPG');
+        background:url('../../img1/small/3.jpg');
         background-size: contain;
     }
 

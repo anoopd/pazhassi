@@ -17,7 +17,7 @@
         display: grid;
         align-items: center;
         justify-items: center;
-        background-image: url(../../img/IMG_7405.JPG);
+        background-image: url(../../img1/medium/7.jpg);
         background-size: cover;
         grid-area: about-hero-left;
         width: 100%;
@@ -25,7 +25,7 @@
 
         @include media('<=bigmobile') {
             padding: 20% 0;
-            background-image: url(../../img/small/IMG_7405.JPG);
+            background-image: url(../../img1/small/7.jpg);
         }
 
 
@@ -108,7 +108,7 @@
 
     }
     .about-bottom__right {
-        background-image: url(../../img/5.JPG);
+        background-image: url(../../img1/medium/5.jpg);
         background-size: cover;
         grid-area: about-bottom-right;
 

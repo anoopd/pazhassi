@@ -30,43 +30,46 @@
     width: 100%;
     height: 100%;
 
-    @include media('<=smalltab') {
-    }
-
-    .img-overlay {
-        width:176px;
-        height:100%;
-        left: 51%;
-        position: absolute;
-        background-image: url('./../../img/bg.svg');
-
-        @include media('<=bigtab') {
-        
-            left: 45%;
-        }
-
-        @include media('<=smalltab') {
-          display: none; 
-        }
-
-        .pazhassi-divider {
-            width: 100%;
-            height: 100%;
-        }
-    }
     .first {
-        background-image: url(../../img//1.JPG);
+        background-image: url(../../img1/1.jpg);
         background-position: 50% 50%; 
         background-size: cover;
+
+        @include media('<=bigmobile') {
+            background-image: url(../../img1/medium/1.jpg);
+        }
+
+        @include media('<=smallmobile') {
+            background-image: url(../../img1/small/1.jpg);
+        }
     }
     .second{
-        background-image: url(../../img//5.JPG);
+        background-image: url(../../img1/5.jpg);
         background-size: cover;
+
+        @include media('<=bigmobile') {
+            background-image: url(../../img1/medium/5.jpg);
+        }
+
+        @include media('<=smallmobile') {
+            background-image: url(../../img1/small/5.jpg);
+        }
     }
     .third{
-        background-image: url(../../img//7.JPG);
+        background-image: url(../../img1/7.jpg);
         background-size: cover;
+
+        @include media('<=bigmobile') {
+            background-image: url(../../img1/medium/7.jpg);
+        }
+
+        @include media('<=smallmobile') {
+            background-image: url(../../img1/small/7.jpg);
+            background-position: 40% 0;
+        }
     }
+
+
 .img {
     grid-area: slide-img;
     width: 100%;
@@ -77,7 +80,7 @@
     }
 
     @include media('<=bigmobile') {
-        height: 30vh;
+        height: 60vh;
     }
     img {
         width: 100%;

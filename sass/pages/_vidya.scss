@@ -32,12 +32,12 @@
         justify-items: center;
         align-items: center;
         grid-area: vidyanikethan-top-right;
-        background: url(../../img/7.JPG);
+        background: url(../../img1/medium/12.jpg);
         background-size: cover;
 
         @include media('<=bigmobile') {
             padding: 20% 0;
-            background: url(../../img/small/7.JPG);
+            background: url(../../img1/small/12.jpg);
             background-size:cover;
         }
 
@@ -78,12 +78,12 @@
 
     .vidyanikethan-bottom__left {
         grid-area: vidyanikethan-bottom-left;
-        background: url(../../img/7.JPG);
+        background: url(../../img1/13.jpg);
         background-size: cover;
 
         @include media('<=bigmobile') {
             padding: 28% 0;
-            background: url('../../img/small/7.JPG');
+            background: url('../../img1/small/13.jpg');
             background-size: cover;
         }
         
