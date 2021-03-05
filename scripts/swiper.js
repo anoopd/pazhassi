@@ -12,6 +12,8 @@ var swiper = new Swiper('.swiper-container', {
       }
     },
 
+    autoplay: true,
+
     preloadImages: true,
     
     pagination: {
