@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Pazhassi Balamandiram</title>
+    <title>Gallery - Pazhassi Balamandiram</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/main.css">
     <link rel="stylesheet" href="./scripts/vendor/photoswipe.css">
     <link rel="stylesheet" href="./scripts/vendor/default-skin/default-skin.css">
+    <style>
+        .gallery1-container {
+            display: block;
+            max-height: none;
+            overflow: visible;
+        }
+        .gallery1-grid {
+            display: block;
+            width: 600px;
+            max-width: 100%;
+            margin: 0 auto;
+            column-count: 4;
+            column-gap: 0;
+        }
+        .gallery1-grid figure {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            vertical-align: top;
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+        .gallery1-grid img { display: block; width: 100%; height: auto; }
+        @media (max-width: 790px) {
+            .gallery1-grid { width: 300px; column-count: 2; }
+        }
+    </style>
 </head>
 <body>
    <div class="container">
@@ -41,85 +68,88 @@
            </div>
        </nav>
 
-       <div class="gallery">
+       <div class="gallery gallery1-container">
             <h2>Image Gallery</h2>
-        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-  
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/1.JPG" itemprop="contentUrl" data-size="1024x750">
-            <img src="./img/thumbs/1.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/2.JPG" itemprop="contentUrl" data-size="1024x750">
-            <img src="./img/thumbs/2.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      
-      
-      
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/5.JPG" itemprop="contentUrl" data-size="1024x750">
-            <img src="./img/thumbs/5.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/6.JPG" itemprop="contentUrl" data-size="1024x750">
-            <img src="./img/thumbs/6.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/7.JPG" itemprop="contentUrl" data-size="1024x750">
-            <img src="./img/thumbs/7.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      
+        <div class="my-gallery gallery1-grid" itemscope itemtype="http://schema.org/ImageGallery">
 
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/8.JPG" itemprop="contentUrl" data-size="1024x700">
-            <img src="./img/thumbs/8.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/9.JPG" itemprop="contentUrl" data-size="1024x600">
-            <img src="./img/thumbs/9.JPG" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
+        <a href="./img2/big/pazhassi1.jpeg" itemprop="contentUrl" data-size="1600x720">
+          <img src="./img2/thumbs/pazhassi1.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 2" loading="lazy" />
         </a>
       </figure>
 
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/11.jpg" itemprop="contentUrl" data-size="1024x600">
-            <img src="./img/thumbs/11.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
+        <a href="./img2/big/pazhassi7.jpeg" itemprop="contentUrl" data-size="1600x823">
+          <img src="./img2/thumbs/pazhassi7.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 8" loading="lazy" />
         </a>
       </figure>
 
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/12.jpg" itemprop="contentUrl" data-size="1024x600">
-            <img src="./img/thumbs/12.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
+        <a href="./img2/big/pazhassi9.jpeg" itemprop="contentUrl" data-size="1600x900">
+          <img src="./img2/thumbs/pazhassi9.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 10" loading="lazy" />
         </a>
       </figure>
 
       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/10.jpg" itemprop="contentUrl" data-size="1024x700">
-            <img src="./img/thumbs/10.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/13.jpg" itemprop="contentUrl" data-size="1024x500">
-            <img src="./img/thumbs/13.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
-        </a>
-      </figure>
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./img/14.jpg" itemprop="contentUrl" data-size="1024x680">
-            <img src="./img/thumbs/14.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram" />
+        <a href="./img2/big/pazhassi11.jpeg" itemprop="contentUrl" data-size="1600x720">
+          <img src="./img2/thumbs/pazhassi11.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 12" loading="lazy" />
         </a>
       </figure>
 
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi2.jpeg" itemprop="contentUrl" data-size="1600x1076">
+          <img src="./img2/thumbs/pazhassi2.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 3" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi.jpeg" itemprop="contentUrl" data-size="1600x900">
+          <img src="./img2/thumbs/pazhassi.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 1" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi12.jpeg" itemprop="contentUrl" data-size="1600x900">
+          <img src="./img2/thumbs/pazhassi12.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 13" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi3.jpeg" itemprop="contentUrl" data-size="1600x1066">
+          <img src="./img2/thumbs/pazhassi3.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 4" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi4.jpeg" itemprop="contentUrl" data-size="1280x960">
+          <img src="./img2/thumbs/pazhassi4.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 5" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi5.jpeg" itemprop="contentUrl" data-size="1044x683">
+          <img src="./img2/thumbs/pazhassi5.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 6" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi8.jpeg" itemprop="contentUrl" data-size="1008x756">
+          <img src="./img2/thumbs/pazhassi8.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 9" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi6.jpeg" itemprop="contentUrl" data-size="862x1280">
+          <img src="./img2/thumbs/pazhassi6.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 7" loading="lazy" />
+        </a>
+      </figure>
+
+      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./img2/big/pazhassi10.jpeg" itemprop="contentUrl" data-size="720x863">
+          <img src="./img2/thumbs/pazhassi10.jpg" itemprop="thumbnail" alt="Pazhassi Balamandiram photo 11" loading="lazy" />
+        </a>
+      </figure>
         </div><!-- my-gallery end -->
-
        </div><!-- Gallery End -->
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
